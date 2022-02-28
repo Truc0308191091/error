@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    width: 100%;
+    height: 150px;
+   display: flex;
+   background-color: black;
+   position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.menu img{
+    margin-top: 40px;
+    margin-right: 200px;
+    margin-left: 20px;
+    width: 20%;
+    height: 100px;
+}
+
+.menu a{
+    font-size: 28px;
+    padding-top: 90px;
+    padding-right: 20px;
+}
+.menu a:hover{
+    color: yellow;
+}
+
+
+#footer{
+    display: flex;
+    color: white;
+    font-size: 12px;
+   background-color: black;
+    width: 100%;
+    padding: 15px 15px;
+    position: fixed;
+    bottom: 0;
+    background-repeat: repeat-x;
+}
+
+#footer .left-footer ul{
+    text-align: left;
+    display: flex;
+}
+#footer .left-footer .item{
+    padding-right: 15px;
+}
+#footer .left-footer .item a{
+    height: 18px;
+    width: 20px;
+    font-size: 20px;
+    color: white;
+    margin: -3px;
+     display: block;/* hiển thị dạng khối */
+}
+#footer .right-footer{
+    margin-left: auto;
+    padding-right: 20px;
+}
+#footer .right-footer ul{
+    justify-content: flex-end;
+    display: flex;
+}
+#footer .right-footer ul li{
+    border-right: 2px solid #FFBC9B;
+}
+#footer .right-footer ul li a {
+    color: white;
+    padding: 0 5px;
+}
+#footer .right-footer ul li:last-child{
+    border-right: none;
+}
+#footer .right-footer ul li:hover a{
+    color: rgb(245, 239, 236);
+  box-shadow: 0 3px yellow;
+}
+.noidung{
+    margin-right: 10px;
+    font-size: 22px;
+    margin-bottom: 50px
+}
+.phai{
+    text-align: right;
+}
+
+img{
+    cursor: pointer;
+}
